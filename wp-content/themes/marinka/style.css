@@ -68,7 +68,6 @@ html {
 
 body {
 	margin: 0;
-	direction: rtl;
 }
 
 /**
@@ -998,7 +997,10 @@ object {
     flex-direction: row;
     justify-content: space-between;
 	align-items: center;
-	padding-bottom: 4%;
+	padding-bottom: 1%;
+    border-bottom: 1px solid #80808033;
+	max-height: 175px;
+    overflow: hidden;
 }
 .menu{
 	list-style: none;
@@ -1024,6 +1026,8 @@ object {
 }
 .HeaderLowerRow{
 	height: 40px;
+	padding-bottom: 46px;
+	padding-top: 10px;
 }
 
 
@@ -1032,7 +1036,6 @@ object {
 .main_wrapper{
     height: 92vh;
     margin: 0 auto;
-	padding: 2% 0;
     width: 90%;
 }
 .FirstBlock{
@@ -1288,10 +1291,528 @@ object {
 	height: 100%;
     display: flex;
 }
+.Footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+        align-items: center;
+}
+.FooterColumsRow{
+	display: flex;
+    justify-content: space-between;
+        width: 90%;
+}
+.FooterColumnItem{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    direction: rtl;
+}
+.FooterLowerRow{
+	display: flex;
+    justify-content: space-between;
+        align-items: center;
+    width: 90%;
+    margin-top: 2%;
+    padding: 1% 0;
+    border-top: 1px solid #80808030;
+}
+.FCHeading{
+	color: #1d9fb3;
+	font-family: Rubik;
+	font-size: 29px;
+	font-weight: 700;
+}
+.FCTxt{
+	color: #6d7282;
+	font-family: Rubik;
+	font-size: 18px;
+	font-weight: 400;
+}
+.FCTxt a{
+	color: #6d7282;
+}
+.FCTxt a:hover{
+	color: #1d9fb3;
+}
+.FooterSocialsBlock{
+    font-size: 30px;
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.FooterSocialsBlock a i{
+	color: #1d9fb3;
+}
+.FooterCopyrightBlock{
+
+}
+.FCopyright{
+	color: black;
+}
+
+						/*Form*/
+
+.FooterFormRow{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #12b8cd;
+    padding-bottom: 3%;
+}
+.FooterFormHeading{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: 0;
+    padding: 1% 0;
+}
+.FooterFormItem{
+	direction: rtl;
+    display: flex;
+    width: 90%;
+}
+.footerFormBtn{
+    background-color: white !important;
+    color: #0cb3cb !important;
+    width: 100% !important;
+    border-radius: 24px !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    line-height: 30px !important;
+}
+#caldera_form_1{
+	width: 90%;
+}
+#fld_2963170_1{
+    background-color: #12b8cd;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2.3%;
+    border-radius: 28px;
+    border-color: #ffffff73;
+    color: white;
+    height: 40%;
+}
+#fld_2963170_1::placeholder{
+	color: white;
+}
+#fld_8768091_1{
+    background-color: #12b8cd;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2.3%;
+    border-radius: 28px;
+    border-color: #ffffff73;
+    color: white;
+    height: 40%;
+}
+#fld_8768091_1::placeholder{
+	color: white;
+}
+#fld_6009157_1{
+    background-color: #12b8cd;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2.3%;
+    border-radius: 28px;
+    border-color: #ffffff73;
+    color: white;
+    height: 40%;	
+}
+#fld_6009157_1::placeholder{
+	color: white;
+}
+.HeaderULeftMenu{
+	width: 25%;
+}
+.HeaderURightMenu{
+	width: 25%;
+}
+.LMFirstElem{
+    padding-left: 5px;
+    width: 47%;
+    display: flex;
+    background-color: #16a3ad;
+    border-radius: 8px;
+}
+.LMFirstElem::after{
+	content: '\f49e';
+    font-family: 'Font Awesome\ 5 Free';
+    font-size: 25px;
+    padding-left: 7%;
+    font-weight: 900;
+    color: white;
+}
+.LMFirstElem a{
+	color: white;
+}
+
+.LMSecondElem{
+    padding-left: 5px;
+    width: 50%;
+    display: flex;
+}
+.LMSecondElem::after{
+    content: '\f500';
+        font-family: 'Font Awesome\ 5 Free';
+    font-size: 25px;
+    padding-left: 7%;
+    font-weight: 900;
+    color: gray;
+}
+.RMFirstItem{
+    padding-left: 5px;
+    width: 50%;
+    display: flex;
+}
+.RMFirstItem::after{
+    content: '\f540';
+    font-family: 'Font Awesome\ 5 Free';
+    font-size: 25px;
+    padding-left: 7%;
+    font-weight: 900;
+    color: gray;
+}
+.RMSecondItem{
+    padding-left: 5px;
+    width: 38%;
+    display: flex;
+}
+.RMSecondItem::after{
+    content: '\f185';
+    font-family: 'Font Awesome\ 5 Free';
+    font-size: 25px;
+    padding-left: 7%;
+    font-weight: 900;
+    color: gray;
+}
+
+
+
+.HeadingRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    direction: ltr;
+    width: 96%;
+}
+.FBBannerButton{
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 5px 20px 5px 20px;
+    height: 20%;
+    display: flex;
+    color: white;
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+.FBBannerButton i{
+	font-size: 30px;
+    color: white;
+    padding-right: 12px;
+}
+a.nice-likes {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+.lessonsWrapper{
+    direction: ltr;
+    width: 90%;
+    margin: 0 auto;
+        margin-bottom: 5%;
+}
+.lessonPage{
+    margin: ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+aside{
+    margin-right: 15px;
+    text-transform: capitalize;
+    width: 30%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li:last-child{
+    padding-bottom: 0.7em;
+}
+ul li:first-child{
+    padding-top: 0;
+}
+a, a:visited{
+    color: white;
+    text-decoration: none;
+    color:#aedfe7;
+}
+.lessonContent img{
+    margin-right: 18px;
+    float: left;
+}
+
+.lessonContent .views{
+    margin: 0;
+}
+.lessonContent{
+    word-break: break-all;
+    font-weight: 100;
+    font-size: 12px;
+    padding: 0 36px 0 36px;
+}
+.lessonContent h2{
+    text-transform: capitalize;
+    color: #2e312a;
+    margin: 24px 0 0 24px;
+}
+.lessonContent h2:after{
+    content: '';
+    display: inline-block;
+    background-color: #2e312a;
+    margin-left: 16px;
+    margin-bottom: 6px;
+    width: 150px;
+    height: 1px;
+}
+.lessonContent p{
+    line-height: 22px;
+    text-align: justify;
+    word-break: break-word;
+}
+.lessonContent p:first-letter{
+    font-size: 38px;
+}
+.lessonName{
+    padding-bottom: 0.7em;
+    padding-top: 0.7em;
+    color: white;
+    background-color: #cacaca;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.floatImageContent {
+    float:right;
+    max-width: 350px;
+}
+.lessonParent ul {
+    height:0;
+    overflow-y:hidden;
+    transform:scaleY(0);
+    transition:0.3s;
+}
+.lessonParent.opened ul{
+    transition: .3s ease-out;
+    padding-left: 10px;
+    display: block;
+    background-color: #1D9FB3;
+    height:initial;
+    transform:scaleY(1);
+}
+.lessonParent.opened ul li{
+    transition:.3s ease-out;
+    padding-top: 0.7em;
+    background-color: #1D9FB3;
+}
+
+.lessonParent.opened .lessonName {
+    transition: 1.2s;
+    background-color: #1D9FB3;
+}
+.lessonContent{
+    width: 68%;
+    -webkit-box-shadow: 0px 0px 60px -19px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 0px 60px -19px rgba(0,0,0,0.41);
+    box-shadow: 0px 0px 60px -19px rgba(0,0,0,0.41);
+}
+h1 {
+    direction: ltr;
+    text-transform: uppercase;
+}
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 930px;
+    margin: 0 auto;
+    direction: ltr;
+}
+.info span{
+	color: #aed0d5;
+}
+.contact h2 {
+	margin-top: 0;
+}
+.contact{
+    min-width: 250px;
+    width: 100%;
+}
+.contact p span{
+	margin-right: 12px;
+}
+.contact p.email{
+	margin-bottom: 50px;
+}
+.ContactBlock{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2% 3% 1% 3%;
+    -webkit-box-shadow: 0px 4px 41px 0px rgba(66,65,66,0.46);
+	-moz-box-shadow: 0px 4px 41px 0px rgba(66,65,66,0.46);
+	box-shadow: 0px 4px 41px 0px rgba(66,65,66,0.46);
+}
+.ContactColumn{
+	display: flex;
+    flex-direction: column;
+    width: 20%;
+}
 
 
 
 
+
+									/*Register Page*/
+
+
+
+
+.register_wrapper{
+
+}
+
+.RegisterBlock {
+    width: 20%;
+    margin: 0 auto;
+    padding: 10% 0;
+}
+#user_email, #first_name, #last_name, #user_pass, #user_url {
+    background-color: white;
+    border-radius: 21px;
+    color: gray;
+    border: 2px solid #5ea2ab;
+    padding: 0 4%;
+}
+#user_email::placeholder, #first_name::placeholder, #last_name::placeholder, #user_pass::placeholder, #user_url::placeholder{
+    color: gray;
+}
+.ur-submit-button {
+    background-color: #1d9fb3;
+    width: 94%;
+    height: 40px;
+    letter-spacing: 2px;
+    color: white;
+}								
+
+
+
+								/*Yacht Club Page*/
+
+.YachtClub_wrapper{
+    background-color: #f5f5f55c;
+}
+.YHeadingBlock{
+	text-align: center;
+	background-color: #12b8cd;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.YHeadingH{
+    color: white;
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 1%;
+}
+.YHeadingText{
+	color: white;
+}
+.YTextBlock{
+    width: 70%;
+    margin: 0 auto;
+        padding-bottom: 2%;
+}
+.YTextBlockHeading{
+        color: black;
+    display: flex;
+    align-items: center;
+}
+.YTextBlockLine{
+	padding-left: 3%;
+}
+.YTextBlockText{
+	color: #6d7282;
+}
+.YtxtBlock{
+	    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+
+									/*Sliders*/
+
+.SliderBlock{
+    width: 70%;
+    margin: 0 auto;
+}
+.PostsSlider{
+
+}
+.FBPostSliderItem{
+    text-align: center;
+}
+.FBPostSliderImg{
+    margin: 0 auto;
+}
+.FBPostSliderHeading{
+    font-size: 28px;
+    color: #12b8cd;
+    margin: 0;
+    padding-top: 2%;
+}
+.FBPostSliderTxt{
+
+}
+.FBPostSliderButton{
+    background-color: white;
+    color: gray;
+    padding: 1% 6%;
+    border: 1px solid gray;
+    border-radius: 18px;	
+}
+.FBPostSliderButton:hover{
+    background-color: #12b8cd;
+    color: white;
+    border-color: #0bc1d8;
+}
+.slick-prev:before {
+    content: '\f053';
+        font-family: 'Font Awesome\ 5 Free';
+    font-size: 80px;
+    font-weight: 900;
+    color: #12b8cd;
+}
+.slick-next:before {
+    content: '\f054';
+        font-family: 'Font Awesome\ 5 Free';
+    font-size: 80px;
+    font-weight: 900;
+    color: #12b8cd;
+}
+.slick-prev {
+    left: -9%;
+}
+.slick-next {
+    right: -9%;
+}
+.FBPostSliderTxt p{
+	
+}
 
 /*Header, Menu Hover, SecondBlock2row, Button, socials = #1d9fb3 
 Testimonial Credentials = #16a3ad

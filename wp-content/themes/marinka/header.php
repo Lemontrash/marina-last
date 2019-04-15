@@ -22,7 +22,7 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<div class="Header" style="display:none;">
+	<div class="Header">
 		<div class="HeaderUpperRow"> 
 			<nav class="HeaderULeftMenu">
 			<?php	wp_nav_menu( [

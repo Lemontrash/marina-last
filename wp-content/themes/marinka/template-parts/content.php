@@ -20,16 +20,16 @@
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			<div class="entry-meta">
-				<?php
-				marinka_posted_on();
-				marinka_posted_by();
-				?>
-			</div><!-- .entry-meta -->
+		
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php marinka_post_thumbnail(); ?>
+	<div class="entry-image">
+		<?php marinka_post_thumbnail(); ?>
+	</div>
+	<div class="entry-excerpt">
+		<?= the_excerpt(); ?> 
+	</div>
 
 	<div class="entry-content">
 		<?php
@@ -46,14 +46,24 @@
 			get_the_title()
 		) );
 
-		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'marinka' ),
-			'after'  => '</div>',
-		) );
+		// wp_link_pages( array(
+		// 	'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'marinka' ),
+		// 	'after'  => '</div>',
+		// ) );
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<?php marinka_entry_footer(); ?>
+	<footer class="entry-meta">
+        <div class="entry-lower">
+        	<?php wpb_set_post_views(get_the_ID()); ?> 
+			<div class="entry-socialActive">
+        		<?= nice_likes() ; ?> 
+       			<?= wpb_get_post_views(get_the_ID()) ?>
+			</div>
+       		<div class="entry-time">
+				<?= marinka_posted_on(); ?>
+			</div>
+        </div>
+		
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
