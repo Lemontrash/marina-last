@@ -1433,8 +1433,8 @@ object {
 }
 .LMFirstElem{
     padding-left: 5px;
-    width: 47%;
-    display: flex;
+	display: flex;
+	align-items: center;
     background-color: #16a3ad;
     border-radius: 8px;
 }
@@ -1452,8 +1452,8 @@ object {
 
 .LMSecondElem{
     padding-left: 5px;
-    width: 50%;
-    display: flex;
+	display: flex;
+	align-items: center;
 }
 .LMSecondElem::after{
     content: '\f500';
@@ -1465,8 +1465,8 @@ object {
 }
 .RMFirstItem{
     padding-left: 5px;
-    width: 50%;
-    display: flex;
+	display: flex;
+	align-items: center;
 }
 .RMFirstItem::after{
     content: '\f540';
@@ -1478,8 +1478,8 @@ object {
 }
 .RMSecondItem{
     padding-left: 5px;
-    width: 38%;
-    display: flex;
+	display: flex;
+	align-items: center;
 }
 .RMSecondItem::after{
     content: '\f185';
