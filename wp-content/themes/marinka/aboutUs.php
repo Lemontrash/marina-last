@@ -3,6 +3,7 @@
 Template Name: AboutUs
 */
 //require 'curl.php';
+tmp();
 insertAll();
 getAllDataFromDb();
 exit();

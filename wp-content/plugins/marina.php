@@ -35,17 +35,17 @@ function onActivate(){
     require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
     $sql = <<<SQL
     CREATE TABLE {$table_name} (
-    id int unsigned NOT NULL,
-    yacht_name varchar(255) default "",
-    model varchar(255) default "",
-    year varchar(255) default "",
+    id varchar(50) NOT NULL,
+    yacht_name varchar(50) default "",
+    model varchar(50) default "",
+    year varchar(50) default "",
     length varchar(255) default "",
     cabins varchar(255) default "",
     heads varchar(255) default "",
     berths varchar(255) default "",
     deposit varchar(255) default "",
     engine varchar(255) default "",
-    price float unsigned  default "0",
+    price float unsigned default "0",
     PRIMARY KEY  (id),
     KEY price (price)
     ) {$charset_collate};
@@ -57,7 +57,7 @@ SQL;
     $sql = <<<SQL
     CREATE TABLE {$table_name} (
     id int unsigned NOT NULL AUTO_INCREMENT,
-    yacht_id int unsigned NOT NULL,
+    yacht_id varchar(50) NOT NULL,
     yacht_option varchar(255) NOT NULL default "0",
     PRIMARY KEY  (id)
     ) {$charset_collate};
@@ -68,13 +68,71 @@ SQL;
     $sql = <<<SQL
     CREATE TABLE {$table_name} (
     id int unsigned NOT NULL Auto_increment,
-    yacht_id int unsigned NOT NULL,
+    yacht_id varchar(50) NOT NULL,
     image varchar(255) NOT NULL default "0",
     PRIMARY KEY  (id)
     ) {$charset_collate};
 SQL;
     dbDelta( $sql );
+
+    $table_name = $wpdb->get_blog_prefix() . 'yachts_locations';
+    $sql = <<<SQL
+    CREATE TABLE {$table_name} (
+    id varchar(50) NOT NULL,
+    name varchar(100) NOT NULL,
+    PRIMARY KEY  (id)
+    ) {$charset_collate};
+SQL;
+    dbDelta( $sql );
+
+    // specify orl
+    $wsdl = 'http://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl';
+
+// load client with definitions
+    $soapClient = new SoapClient($wsdl, Array('trace'=>1));
+
+    try {
+        $struct = new MMKSruct(Array(3497,'office@sea-time.co.il','seatime0'));
+
+        $result = $soapClient->getRegions($struct);
+
+        if (isset($result->out)) {
+            $xml = $result->out;
+            echo $xml;
+        }
+    }
+
+    catch (Exception $e) {
+        print_r($soapClient->__getLastRequest());
+        print_r($soapClient->__getLastResponse());
+        print_r($e->getTrace());
+        var_dump($e);
+    }
+
+    $tmp = $soapClient->__getLastResponse();            //получение запроса и обрезание убейте хорватов пожалуйста
+    $response = html_entity_decode($tmp);
+    $response = stristr($response, '<root>');
+    $pos = strpos($response, '</ns1:out>');
+    $response = substr($response, 0, $pos);
+    $obj = new SimpleXMLElement($response);
+    $locations = [];
+    $counter = 0;
+    global $wpdb;
+    foreach ($obj as $item){
+        $locations[$counter]['id'] = (string)$item->attributes()['id'];
+        $locations[$counter]['name'] = (string)$item->attributes()['name'];
+        $counter++;
+    }
+    foreach ($locations as $location) {
+        $wpdb->insert($table_name, $location);
+    }
+
 }
+
+function tmp(){
+
+}
+
 
 function getApiRequest(){
     // specify orl
@@ -110,7 +168,6 @@ function getApiRequest(){
 
     return $obj;
 }
-
 function getAllDataForYachtsFromApi(){
     $object = getApiRequest();
 
@@ -178,10 +235,11 @@ function insertAll(){
     $yachtsId = [];
     $table_name = $wpdb->get_blog_prefix() . 'yachts';
     $wpdb->query("delete from $table_name");
+
     foreach ($yachts['names'] as $id => $name) {
         $data = [
             'id' => (string)$id,
-            'yacht-name' => $name
+            'yacht_name' => $name
         ];
         if ($wpdb->get_var("select id from $table_name where id = $id")){
             $wpdb->delete($table_name, array('id' => $id));
@@ -191,6 +249,7 @@ function insertAll(){
         $counter++;
     }
     foreach ($yachts['prices'] as $id => $price) {
+
         $data = [
             'price' => $price
         ];
