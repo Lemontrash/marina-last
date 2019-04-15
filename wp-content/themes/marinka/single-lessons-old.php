@@ -68,8 +68,8 @@ get_header();
                         <?= get_the_content(); ?>
                     </p>
                 </div>
-
-                <?php wpb_set_post_views(get_the_ID()); ?>
+                 
+                <?php wpb_set_post_views(get_the_ID()); ?> 
                 <div class="views"><?= nice_likes() ; ?> <?=wpb_get_post_views(get_the_ID()) ?> </div><br>
             <?php
             endwhile; // End of the loop.
@@ -81,8 +81,8 @@ get_header();
 
 
 
-<?php
-get_footer();
+<?php 
+get_footer(); 
 ?>
 
 <script>

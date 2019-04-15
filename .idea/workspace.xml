@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="717b0717-6fd0-4dcd-8a95-ebe436bc4d49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/marina-old.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/ti-woocommerce-wishlist/assets/css/admin.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/ti-woocommerce-wishlist/assets/css/public.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/ti-woocommerce-wishlist/assets/css/theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/ti-woocommerce-wishlist/includes/analytics.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-registration/includes/form/settings/class-ur-setting-date.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-registration/includes/form/settings/class-ur-setting-description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-registration/includes/form/settings/class-ur-setting-display_name.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-registration/includes/form/settings/class-ur-setting-first_name.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-registration/includes/form/settings/class-ur-setting-last_name.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-registration/includes/form/settings/class-ur-setting-nickname.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-registration/includes/form/settings/class-ur-setting-user_confirm_password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-registration/includes/form/settings/class-ur-setting-user_email.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-registration/includes/form/settings/class-ur-setting-user_login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-registration/includes/form/settings/class-ur-setting-user_pass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/user-registration/includes/form/settings/class-ur-setting-user_url.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/marinka/archive-lessons-old.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/marinka/single-lessons-old.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/marinka/template-parts/content-lessons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/marinka/single-lessons.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marinka/single-lessons.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/marina-old.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/marinka/single-lessons.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="72" column="67" selection-start-line="72" selection-start-column="67" selection-end-line="72" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/marinka/archive-lessons-old.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/marinka/single-lessons-old.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="28" column="53" lean-forward="true" selection-end-line="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>123</find>
+      <find>var_</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/marinka/templates/aboutUs.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/marina.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/marinka/single-lessons.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/MarinaWP.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="287" />
+    <option name="y" value="-22" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MarinaWP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MarinaWP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MarinaWP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MarinaWP" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MarinaWP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MarinaWP" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MarinaWP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MarinaWP" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MarinaWP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MarinaWP" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="marinka" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="717b0717-6fd0-4dcd-8a95-ebe436bc4d49" name="Default Changelist" comment="" />
+      <created>1555075253505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555075253505</updated>
+      <workItem from="1555075255158" duration="1724000" />
+      <workItem from="1555077701957" duration="301000" />
+      <workItem from="1555329670742" duration="182000" />
+      <workItem from="1555329949646" duration="282000" />
+    </task>
+    <task id="LOCAL-00001" summary="fgchv bjnkml">
+      <created>1555075757257</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555075757257</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Some text">
+      <created>1555076870163</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555076870163</updated>
+    </task>
+    <task id="LOCAL-00003" summary="daada">
+      <created>1555078572551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555078572551</updated>
+    </task>
+    <task id="LOCAL-00004" summary="daada">
+      <created>1555329702661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555329702661</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5088000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="fgchv bjnkml" />
+    <MESSAGE value="Some text" />
+    <MESSAGE value="daada" />
+    <option name="LAST_COMMIT_MESSAGE" value="daada" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marinka/templates/aboutUs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/marina-old.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marinka/single-lessons-old.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="53" lean-forward="true" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marinka/single-lessons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="72" column="67" selection-start-line="72" selection-start-column="67" selection-end-line="72" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marinka/archive-lessons-old.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
